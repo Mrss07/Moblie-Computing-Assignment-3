@@ -1,0 +1,82 @@
+<resources>
+    <!--    General string values for App-->
+    <string name="app_name">Card Quiz Game</string>
+    <string name="welcome_msg">Welcome to QuizBee!</string>
+    <string name="welcome_desc">The Card Quiz Game</string>
+    <string name="sign_up_message">To create new account, sign up here</string>
+    <string name="created_by">Created by Rohith SeshaSai</string>
+    <string name="home_text">Register or Login</string>
+
+    <!--    Registration Form fields-->
+    <string name="button_register">Register</string>
+    <string name="register_text">User Registration Form</string>
+    <string name="first_name">First Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dob">Date of birth (MM/DD/YYYY)</string>
+    <string name="title_activity_register">Register</string>
+    <string name="register_success">Congratulations! You have successfully registered!</string>
+
+    <!--    Login fields-->
+    <string name="button_login">Login</string>
+    <string name="login_text">Login</string>
+    <string name="login_success">Congratulations! You have successfully logged in!</string>
+    <string name="login_fail">Sorry! Invalid credentials!</string>
+
+    <!--    Game rules-->
+    <string name="game_rule_1">1. The game contains 5 questions based on concepts related to Android app development.</string>
+    <string name="game_rule_2">2. Every question has 10 points each.</string>
+    <string name="game_rule_3">3. You can answer each question only once.</string>
+    <string name="game_rule_4">4. Answers may be fill-in or multiple choice. Some questions may have multiple choices as answers.</string>
+    <string name="game_rule_5">5. Score will be displayed at the end of the game.</string>
+    <string name="game_rule_message">Here you go! Good Luck!</string>
+    <string name="game_rule_title">Card Game Rules</string>
+    <string name="start_button">START</string>
+
+    <!--    Questions, options and answers -->
+    <string name="question_1">Who is credited with inventing the first practical automobile, known as the Motorwagen, in 1886?</string>
+    <string name="option_1_a">Karl Benz</string>
+    <string name="option_1_b">Nikolaus Otto</string>
+    <string name="option_1_c">Gottlieb Daimler</string>
+    <string name="option_1_d">None of the above</string>
+    <string name="answer_1">Karl Benz</string>
+
+    <string name="question_2">Which of the following car manufacturers are known for producing electric vehicles?</string>
+    <string name="option_2_a">Tesla</string>
+    <string name="option_2_b">Nissan</string>
+    <string name="option_2_c">Chevrolet</string>
+    <string name="option_2_d">Audi</string>
+    <string name="answer_2">Tesla,Nissan,Chevrolet</string>
+
+    <string name="question_3">What is the best-selling car model of all time, with over 40 million units sold since its introduction in 1966?</string>
+    <string name="option_3_a">Volkswagen Beetle</string>
+    <string name="option_3_b">Ford F-Series</string>
+    <string name="option_3_c">Toyota Corolla</string>
+    <string name="option_3_d">Honda Civic</string>
+    <string name="answer_3">Toyota Corolla</string>
+
+    <string name="question_4">In 1997, which Japanese automaker produced the worlds first mass produced hybrid car, the Toyota Prius?</string>
+    <string name="option_4_a">Subaru</string>
+    <string name="option_4_b">Nissan</string>
+    <string name="option_4_c">Toyota</string>
+    <string name="option_4_d">Honda</string>
+    <string name="answer_4">Toyota</string>
+
+    <string name="question_5">Which car brands are renowned for their performance-oriented models and have produced vehicles with the designation "M," "AMG," and "Type R"?</string>
+    <string name="option_5_a">BMW</string>
+    <string name="option_5_b">Volkswagen</string>
+    <string name="option_5_c">Mercedes-Benz</string>
+    <string name="option_5_d">Honda</string>
+    <string name="answer_5">BMW,Mercedes-Benz,Honda</string>
+
+    <!--    For dialog box and score stats -->
+    <string name="dialog_title">Confirm submission</string>
+    <string name="confirmation_text">Do you want to submit this answer?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="stats">View Previous Scores</string>
+    <string name="back">Go To Home</string>
+    <string name="view_stats">Score History</string>
+</resources>

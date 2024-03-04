@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Relative layout for Splash screen components -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="#BDC8C2"
+    tools:context="com.example.card_quiz_game_RohithSeshaSai.SplashScreen">
+
+<!--    The image which will come sliding from top-->
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/vehicle"/>
+
+<!--    Text displayed below image-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_centerHorizontal="true"
+        android:text="Hello, Welcome to Car Quiz"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/welcome_msg"/>
+
+<!--    The welcome message-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"
+        android:text="A Fun Quiz game"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+<!--    Developer details-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="120dp"
+        android:text="Creator : Rohith Sesha Sai Maddina"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
